@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutUsFragment"
+    android:orientation="vertical"
+    android:background="@color/mediumGray"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/age1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hammad Ali"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/sold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kiddy Kids App Purpose"
+            android:textColor="#C9F45C36"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The purpose to develop this app is to overcome the problems of parents. Because parents had to go to different shops to buy different things for their kids. So, we are providing all the necessary items for kids."
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Main Features:"
+            android:textColor="@color/red"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We categorized products according to the age of kids. And we are providing packages of different things."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Option"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/share"
+            android:gravity="center_vertical"
+            android:drawableTint="@color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

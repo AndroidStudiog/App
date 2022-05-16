@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/home"
+            />
+        <item
+            android:id="@+id/daily_meal"
+            android:title="@string/categorize_by_age"
+            android:icon="@drawable/age"
+            />
+        <item
+            android:id="@+id/favourite"
+            android:title="@string/favourite"
+            android:icon="@drawable/favorite"
+            />
+        <item
+            android:id="@+id/my_cart"
+            android:title="@string/my_cart"
+            android:icon="@drawable/shopping_cart"
+            />
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about_us"
+            android:icon="@drawable/info"
+            />
+        <item
+            android:id="@+id/contact_us"
+            android:title="@string/customize_package"
+            android:icon="@drawable/phone"
+            />
+    </group>
+</menu>
